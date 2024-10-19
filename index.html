@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container-flut">
+      <nav
+        class="py-3 px-5 bg-green-500 d-flex justify-content-between align-items-center"
+      >
+        <a href="#"
+          ><img src="./imgs/new-sarkor-logo-mini.png" alt="sarkoImgLogotip"
+        /></a>
+
+        <ul class="d-flex linkBtn align-items-center mb-0 p-0" id="linkBtn">
+          <li class="liBtn mx-3"><a href="#">Tariflar</a></li>
+          <li class="liBtn mx-3"><a href="#">Xizmatlar</a></li>
+          <li class="liBtn mx-3"><a href="#">Biznes</a></li>
+          <li class="liBtn mx-3"><a href="#">Kontaktlar</a></li>
+        </ul>
+
+        <a href="#" class="link">Shaxsiy Kabinet</a>
+
+        <div class="btnBotton" onclick="addLink()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </nav>
+
+      <div id="qoshadi"></div>
+
+      <div class="main py-5 px-5">
+        <div></div>
+        <div class="ulashish"><a href="#">Ulanish</a></div>
+        <div class="telStyle">
+          <i class="fa-solid fa-phone"></i>&nbsp&nbsp<a href="tel:+998781220000"
+            >78 122 00 00</a
+          >
+        </div>
+        <div class="d-flex iconcStyle">
+          <a href="#"
+            ><img class="me-3" width="130px" src="./imgs/kinoman.png" alt="img"
+          /></a>
+          <a href="#"
+            ><img width="130px" src="./imgs/sarkor_tv.png" alt="img"
+          /></a>
+        </div>
+      </div>
+
+      <div class="coruselImgs mx-5">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner carouselInner">
+            <div class="carousel-item active mobile">
+              <img
+                src="./imgs/DnLsMqvjTolcRJqqKmiDVSvfDCdvcb.jpg"
+                style="height: 350px"
+                alt="Los Angeles"
+                class="d-block w-100"
+              />
+            </div>
+
+            <div class="carousel-item mobile">
+              <img
+                src="./imgs/kmKlEWWDeddivgKAjIhVFNuMiaDvah.jpg"
+                style="height: 350px"
+                alt="Chicago"
+                class="d-block w-100"
+              />
+            </div>
+
+            <div class="carousel-item mobile">
+              <img
+                src="./imgs/YjZtUrZLpQVoKEMdqfPblFUoXJyaDl.jpg"
+                style="height: 350px"
+                alt="New York"
+                class="d-block w-100"
+              />
+            </div>
+
+            <div class="carousel-item mobile">
+              <img
+                src="./imgs/OEfBgTMPKTExaIHwdsZzkmFIORNlYa.png"
+                style="height: 350px"
+                alt="New York"
+                class="d-block w-100"
+              />
+            </div>
+
+            <div class="carousel-item mobile">
+              <img
+                src="./imgs/RuGipbqNJNYqOxNZRmBWSjGrlOTbRV.png"
+                style="height: 350px"
+                alt="New York"
+                class="d-block w-100"
+              />
+            </div>
+
+            <div class="carousel-item mobile">
+              <img
+                src="./imgs/xONUvFNtJGsCvspWwrXBrMcRxBKYwG.jpg"
+                style="height: 350px"
+                alt="New York"
+                class="d-block w-100"
+              />
+            </div>
+
+            <div class="carousel-item mobile">
+              <img
+                src="./imgs/YyvwZCrQCFTmmNlUTRWzFiAzsHsUuH.png"
+                style="height: 350px"
+                alt="New York"
+                class="d-block w-100"
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-transparent px-4 py-2"
+            ></span>
+          </button>
+
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-transparent px-4 py-2"
+            ></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mx-5 iconc">
+        <div class="boxs">
+          <img src="./imgs/user.jpg" alt="pngImg" />
+          <p>Qamrov zonasi</p>
+        </div>
+        <div class="boxs">
+          <img src="./imgs/user.jpg" alt="pngImg" />
+          <p>Tarif rejalar</p>
+        </div>
+        <div class="boxs">
+          <img src="./imgs/user.jpg" alt="pngImg" />
+          <p>Tez to'lov</p>
+        </div>
+        <div class="boxs">
+          <img src="./imgs/user.jpg" alt="pngImg" />
+          <p>Ichki resurslar</p>
+        </div>
+        <div class="boxs">
+          <img src="./imgs/user.jpg" alt="pngImg" />
+          <p>Speed Test</p>
+        </div>
+        <div class="boxs">
+          <img src="./imgs/user.jpg" alt="pngImg" />
+          <p>Savol-javoblar</p>
+        </div>
+      </div>
+
+      <div class="btns m-5">
+        <div class="btn"><a href="#">Yangiliklar</a></div>
+        <div class="btn"><a href="#">Aksiyalar</a></div>
+        <div class="btn"><a href="#">Ma'lumotlar</a></div>
+      </div>
+
+      <div class="m-5">
+        <div class="line">
+          <p>9-sentyabr 2022-y</p>
+          <div><a href="#">Bizni kutib olinglar TTZ 1,4</a></div>
+          <hr />
+        </div>
+        <div class="line">
+          <p>22-avgust 2022-y</p>
+          <div><a href="#">Bizni kutib olinglar Feruza 2,Dubayeva</a></div>
+          <hr />
+        </div>
+        <div class="line">
+          <p>1-avgust 2022-y</p>
+          <div><a href="#">Qaramov hududlarimizni kengatdi-Buz-2</a></div>
+          <br />
+          <button
+            class="btn btn-outline-warning px-4 text-black borderRadius mt-2"
+          >
+            Ko'proq ko'rsatish
+          </button>
+        </div>
+      </div>
+
+      <div class="m-5 text-center" style="color: #5c5858 !important">
+        <h3 data-v-4343c51e="">
+          Toshkentda cheksiz Wi-Fi internet ulanish - provayder Sarkor Telecom.
+        </h3>
+        <div class="mt-4" style="font-size: 16px" data-v-4343c51e="">
+          Ehtimol uyingizga yoki sizning ofisingizga Wi-Fi orqali cheksiz
+          internet qidiryapsizmi? Sarkor Telecom - 1996 yildan buyon Toshkent
+          shahrida Internet aloqasi xizmatlarini ko'rsatib kelayotgan
+          internet-provayder. Shuningdek, biz hosting xizmatlari, video kuzatuv,
+          IP-telefoniya va IPTV xizmatlarini taklif etamiz.
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="mb-0 m-5 foterBotton">
+        <ol>
+          <h4 class="footer-header" style="color: #f0801a">Kompaniya haqida</h4>
+          <li><a href="https://uzb/about#company">Kompaniya haqida</a></li>
+          <li>
+            <a href="https://uzb/about#company_advantages"
+              >Kompaniya rahbariyati</a
+            >
+          </li>
+          <li><a href="https://uzb/vacancies">Vakansiyalar</a></li>
+          <li><a href="https://uzb/contacts">Aloqa</a></li>
+          <li><a href="https://uzb/tenders">Tenderlar</a></li>
+          <li><a href="https://uzb/partners">Xamkorlar</a></li>
+          <li><a href="https://uzb/offer">Oferta</a></li>
+        </ol>
+        <ol>
+          <h4 class="footer-header" style="color: #f0801a">Internet</h4>
+          <li><a href="https://uzb/tariff">Tarif rejalar</a></li>
+          <li><a href="https://uzb/documents">Hujjatlar</a></li>
+          <li><a href="https://uzb/coverage_area">Qamrov zonasi</a></li>
+        </ol>
+        <ol>
+          <h4 class="footer-header" style="color: #f0801a">Ma'lumotnoma</h4>
+          <li><a href="https://uzb/faq">Savol-javoblar</a></li>
+        </ol>
+        <ol>
+          <h4 class="footer-header" style="color: #f0801a">Xizmat</h4>
+          <li><a href="http://hostim.uz">Xosting va domenlar </a></li>
+          <li><a href="http://ipcam.uz">IPCam </a></li>
+        </ol>
+      </div>
+
+      <footer class="mx-5 p-2 d-block text-center">
+        <h5 class="mb-4 text-bold">Biz ijtimoiy tarmoqlarda</h5>
+        <div class="footerLogatib">
+          <div class="boxs">
+            <img src="./imgs/facebook.png" alt="pngImg" />
+            <p>Facebook</p>
+          </div>
+
+          <div class="boxs">
+            <img src="./imgs/inistagramImg.png" alt="pngImg" />
+            <p>Inistagram</p>
+          </div>
+
+          <div class="boxs">
+            <img src="./imgs/teligram.png" alt="pngImg" />
+            <p>Teligram</p>
+          </div>
+        </div>
+        <div class="telStyleBottom m-5">
+          <i class="fa-solid fa-phone"></i>&nbsp&nbsp<a
+            href="tel:+998781220000"
+            class="telSize"
+            >+998 78 122 00 00</a
+          >
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
